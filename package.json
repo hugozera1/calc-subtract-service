@@ -1,0 +1,6 @@
+{
+  "name": "calc-subtract-service",
+  "version": "1.0.0",
+  "main": "api/subtract.js",
+  "license": "MIT"
+}
