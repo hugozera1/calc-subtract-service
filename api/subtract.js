@@ -1,4 +1,5 @@
 export default function handler(req, res) {
+   res.setHeader('Access-Control-Allow-Origin', '*');
   const { a, b } = req.query;
   if (isNaN(a) || isNaN(b)) {
     return res.status(400).json({ error: 'Parâmetros inválidos' });
