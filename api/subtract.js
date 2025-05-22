@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-   res.setHeader('Access-Control-Allow-Origin', '*');
+   res.setHeader('Access-Control-Allow-Origin', 'https://calc-frontend-woad.vercel.app/');
   const { a, b } = req.query;
   if (isNaN(a) || isNaN(b)) {
     return res.status(400).json({ error: 'Parâmetros inválidos' });
